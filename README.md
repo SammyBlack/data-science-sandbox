@@ -1,17 +1,20 @@
 # Data Science Coding Portfolio 
 Sample projects in Python to highlight data science and visualization
+- [Sammy Black on LinkedIn](https://www.linkedin.com/in/samson-black-b618a840)
+- [Sammy Black on Google Scholar](https://scholar.google.com/citations?user=0A1-WuEAAAAJ) 
 
-[Sammy Black on LinkedIn](https://www.linkedin.com/in/samson-black-b618a840)
 
-# Predicting Housing Prices
+# Projects 
+
+## Predicting Housing Prices
 - [Using Random Forest Regression](https://github.com/SammyBlack/data-science-sandbox/tree/main/housing_prices_competition) 
 - Using Logistic Regression 
 
-# Facial recognition 
+## Facial recognition 
 
-# Handwritten digits 
+## Handwritten digits 
 
-# Bicycle traffic patterns 
+## Bicycle traffic patterns 
 
 
 # Others
