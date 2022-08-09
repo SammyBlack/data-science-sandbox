@@ -49,3 +49,8 @@ test_data_path = 'data/test.csv'
 test_data = pd.read_csv(test_data_path)
 test_X = test_data[features]
 test_preds = rf_model_on_full_data.predict(test_X)
+
+# save predictions as CSV 
+output = pd.DataFrame({'Id': test_data.Id,
+                       'SalePrice': test_preds})
+output.to_csv('data/submission.csv', index=False)
