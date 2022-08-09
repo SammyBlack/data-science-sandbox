@@ -1,2 +1,2 @@
 # data-science-sandbox
-Analysis and visualization of using machine learning tools
+Sample projects in Python to highlight data science and visualization
