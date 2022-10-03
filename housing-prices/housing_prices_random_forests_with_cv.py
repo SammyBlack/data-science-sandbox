@@ -15,7 +15,7 @@ home_data = pd.read_csv(iowa_file_path)
 y = home_data.SalePrice
 
 # Select important features 
-print(home_data.columns) 
+# print(home_data.columns) 
 features = ['LotArea', 'YearBuilt', '1stFlrSF', '2ndFlrSF', 'FullBath', 'BedroomAbvGr', 'TotRmsAbvGrd']
 
 # Select columns corresponding to features, and preview the data 
@@ -26,22 +26,23 @@ print(X.head())
 train_X, val_X, train_y, val_y = train_test_split(X, y, random_state=1)
 
 # Define a random forest model and validate with Mean Absolute Error 
-# with various values of hyperparameters 
-mea_dict = {}
-for n in [65, 70, 75, 80]: 
-    for d in [12, 15, 18]:
-        rf_model = RandomForestRegressor(n_estimators=n, max_depth=d, random_state=1)
-        rf_model.fit(train_X, train_y)
-        rf_val_predictions = rf_model.predict(val_X)
-        rf_val_mae = mean_absolute_error(rf_val_predictions, val_y)
-        mea_dict[(n, d)] = rf_val_mae
-        out_str = "Validation MAE for RF Model with {} estimators and max depth {}: {:,.0f}"
-        print(out_str.format(str(n).rjust(2), str(d).rjust(2), rf_val_mae))
-(N, D) = min(mea_dict, key=mea_dict.get)
-print("\nMin MAE with {}: {:,.0f}".format((N, D), mea_dict[(N, D)]))
+rf_model = RandomForestRegressor(random_state=1)
+rf_model.fit(train_X, train_y)
+rf_val_predictions = rf_model.predict(val_X)
+rf_val_mae = mean_absolute_error(rf_val_predictions, val_y)
+out_str = 'Mean Absolute Error with for Random Forest Model:  {:,.0f}'
+print(out_str.format(rf_val_mae)) 
+
+print('\n') 
+print(dir(rf_model))
+print('\n') 
+
+param_dict = rf_model.get_params()
+print(param_dict) 
+
 
 # create a new Random Forest model and fit model on all data 
-rf_model_on_full_data = RandomForestRegressor(n_estimators=70, max_depth=15, random_state=1) 
+rf_model_on_full_data = RandomForestRegressor(random_state=1) 
 rf_model_on_full_data.fit(X, y)
 
 # predict using test data
