@@ -7,16 +7,12 @@ Sample projects in Python to highlight data science and visualization
 # Projects 
 
 ## Predicting Housing Prices
-- [Using Random Forest Regression](https://github.com/SammyBlack/data-science-sandbox/tree/main/housing_prices_competition) 
-- Using Logistic Regression 
+- [Using PCA, Logistic Regression, and pipelines along with hyperparameter cross validation](https://github.com/SammyBlack/data-science-sandbox/tree/main/housing-prices)  
+- [Original model using Random Forest Regression](https://github.com/SammyBlack/data-science-sandbox/tree/main/housing-prices) 
 
-## Facial recognition 
-
-## Handwritten digits 
-
-## Bicycle traffic patterns 
-
+## Spaceship Titanic 
+- [Using passenger data to classify survival, involving data cleaning, preprocessing, and cross validation](https://github.com/SammyBlack/data-science-sandbox/tree/main/spaceship-titanic) 
 
 # Others
-- Polynomial arithmetic from scratch 
-- Balls-in-bins trading game 
+- [Polynomial arithmetic class from scratch](https://github.com/SammyBlack/data-science-sandbox/tree/main/polynomial) 
+- [Balls-in-bins trading game](https://github.com/SammyBlack/data-science-sandbox/tree/main/balls-in-bins.py)  
