@@ -1,6 +1,6 @@
 # Data Science Coding Portfolio 
 Sample projects in Python to highlight data science and visualization
-- [Sammy Black on LinkedIn](https://www.linkedin.com/in/samson-black-b618a840)
+- [Sammy Black on LinkedIn](https://www.linkedin.com/in/samson-black)
 - [Sammy Black on Google Scholar](https://scholar.google.com/citations?user=0A1-WuEAAAAJ) 
 
 
@@ -15,4 +15,5 @@ Sample projects in Python to highlight data science and visualization
 
 # Others
 - [Polynomial arithmetic class from scratch](https://github.com/SammyBlack/data-science-sandbox/tree/main/polynomial) 
-- [Balls-in-bins trading game](https://github.com/SammyBlack/data-science-sandbox/tree/main/balls-in-bins.py)  
+- [Balls-in-bins trading game](https://github.com/SammyBlack/data-science-sandbox/tree/main/balls-in-bins) 
+- [Prime gaps](https://github.com/SammyBlack/data-science-sandbox/tree/main/primes)  
