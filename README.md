@@ -14,7 +14,7 @@ Sample projects in Python to highlight data science and visualization
 - [Using passenger data to classify survival, involving data cleaning, preprocessing, and cross validation](https://github.com/SammyBlack/data-science-sandbox/tree/main/spaceship-titanic) 
 
 ## Gradient Descent for Polynomial Regression
-- [Polynomial regression engine built from scratch using gradient descent](https://github.com/SammyBlack/data-science-sandbox/tree/main/grad_desc_polynomial_regression) 
+- [Polynomial regression engine built from scratch using gradient descent](https://github.com/SammyBlack/data-science-sandbox/tree/main/grad-desc-polynomial-regression) 
 
 # Others
 - [Polynomial arithmetic class from scratch](https://github.com/SammyBlack/data-science-sandbox/tree/main/polynomial) 
